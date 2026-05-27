@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="https://telegra.ph/file/dc3a3cb28fdc38b24467d.jpg" alt="ZANTA-MD Logo" width="200" style="border-radius: 50%;">
   <h1>ZANTA-BAILEYS</h1>
   <p>A Professional, Highly Optimized & Clean WebSocket-based JavaScript library for interacting with the WhatsApp Web API.</p>
   
@@ -22,7 +21,6 @@ Optimized specifically to power the **ZANTA-MD** WhatsApp bot framework.
 
 ## ⚡ Main Improvements in this Fork
 
-* 🛡️ **Zero Background Spams:** Removed hidden `setTimeout` fetch requests that forced user nodes to secretly subscribe to outer developer newsletters.
 * 📦 **2GB Large File Streaming:** Fully supports seamless streaming and direct uploading/downloading of large files (up to 2GB) without exhausting your server RAM.
 * 🚀 **Deep Performance:** Lightweight structure optimized for low-spec hosting servers and automated business workflow systems.
 
