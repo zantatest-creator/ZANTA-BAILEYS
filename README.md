@@ -1,56 +1,36 @@
 <div align="center">
-  <h1>Gifted-Baileys</h1>
-  <p>A WebSocket-based JavaScript library for interacting with the WhatsApp Web API</p>
+  <img src="https://telegra.ph/file/dc3a3cb28fdc38b24467d.jpg" alt="ZANTA-MD Logo" width="200" style="border-radius: 50%;">
+  <h1>ZANTA-BAILEYS</h1>
+  <p>A Professional, Highly Optimized & Clean WebSocket-based JavaScript library for interacting with the WhatsApp Web API.</p>
   
-  [![npm version](https://img.shields.io/npm/v/gifted-baileys.svg)](https://www.npmjs.com/package/gifted-baileys)
-  [![npm downloads](https://img.shields.io/npm/dm/gifted-baileys.svg)](https://www.npmjs.com/package/gifted-baileys)
-  [![License](https://img.shields.io/npm/l/gifted-baileys.svg)](https://github.com/mauricegift/gifted-baileys/blob/main/LICENSE)
+  <p align="center">
+    <a href="https://github.com/zantatest-creator/ZANTA-BAILEYS"><img title="Blazing Fast" src="https://img.shields.io/badge/Speed-Blazing%20Fast-orange?style=for-the-badge&logo=fastly"></a>
+    <a href="https://github.com/zantatest-creator/ZANTA-BAILEYS"><img title="Version" src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge"></a>
+    <a href="https://github.com/zantatest-creator/ZANTA-BAILEYS/blob/main/LICENSE"><img title="License" src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"></a>
+  </p>
 </div>
 
-## Disclaimer
+---
 
-This project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with WhatsApp or any of its subsidiaries or affiliates. Use at your own discretion. Do not spam people with this. We discourage any stalkerware, bulk or automated messaging usage.
+## 🌟 Overview
 
-## Installation
+**ZANTA-BAILEYS** is a modified, **100% pure & clean custom fork** of Baileys. All hidden tracking endpoints, background data collection, and annoying developer auto-follow newsletter scripts have been completely stripped out to ensure maximum privacy, safety, and background performance for your automated bots.
+
+Optimized specifically to power the **ZANTA-MD** WhatsApp bot framework.
+
+---
+
+## ⚡ Main Improvements in this Fork
+
+* 🛡️ **Zero Background Spams:** Removed hidden `setTimeout` fetch requests that forced user nodes to secretly subscribe to outer developer newsletters.
+* 📦 **2GB Large File Streaming:** Fully supports seamless streaming and direct uploading/downloading of large files (up to 2GB) without exhausting your server RAM.
+* 🚀 **Deep Performance:** Lightweight structure optimized for low-spec hosting servers and automated business workflow systems.
+
+---
+
+## 🛠️ Installation
+
+You can install this custom core directly from this GitHub repository into your project:
 
 ```bash
-npm install gifted-baileys
-```
-
-Or using yarn:
-```bash
-yarn add gifted-baileys
-```
-
-## Quick Start
-
-### CommonJS (Recommended)
-```javascript
-const { default: makeWASocket, useMultiFileAuthState, Browsers } = require('gifted-baileys')
-```
-
-### ES Modules / TypeScript
-```javascript
-import pkg from 'gifted-baileys'
-const { default: makeWASocket, useMultiFileAuthState, Browsers } = pkg
-```
-
-## Features
-
-- Full WhatsApp Web API support
-- Multi-device support with QR code and pairing code authentication
-- LID (Link ID) addressing support for both personal chats and groups
-- Group status/story sending functionality
-- Session management and restoration
-- Message sending, receiving, and manipulation
-- Group management
-- Privacy settings
-- Profile management
-- And much more!
-
-> **Note:** For sending buttons, please use the [gifted-btns](https://npmjs.com/package/gifted-btns) package.
-
-## Documentation
-
-Full documentation is available at [baileys.giftedtech.co.ke](https://baileys.giftedtech.co.ke)
-
+npm install git+[https://github.com/zantatest-creator/ZANTA-BAILEYS.git#main](https://github.com/zantatest-creator/ZANTA-BAILEYS.git#main)
