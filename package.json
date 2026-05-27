@@ -1,0 +1,44 @@
+{
+  "name": "baileys",
+  "type": "module",
+  "version": "7.0.0-rc13",
+  "description": "A Light & Optimized WebSockets library for interacting with WhatsApp Web - Zanta Mod",
+  "keywords": [
+    "whatsapp",
+    "automation",
+    "zanta"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*",
+    "WAProto/**/*"
+  ],
+  "scripts": {
+    "build": "tsc -P tsconfig.build.json && tsc-esm-fix --tsconfig=tsconfig.build.json --ext=.js",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@cacheable/node-cache": "^1.4.0",
+    "@hapi/boom": "^9.1.3",
+    "async-mutex": "^0.5.0",
+    "libsignal": "^6.0.0",
+    "lru-cache": "^11.1.0",
+    "music-metadata": "^11.12.3",
+    "p-queue": "^9.0.0",
+    "pino": "^9.6",
+    "protobufjs": "^7.5.6",
+    "whatsapp-rust-bridge": "0.5.4",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "@types/ws": "^8.0.0",
+    "tsc-esm-fix": "^3.1.2",
+    "typescript": "^5.8.2"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
